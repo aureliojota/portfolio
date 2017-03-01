@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+  
+  <h1 class="page-heading">Selected cases</h1>
+
+  <div class="posts">
+      <ul class="posts__list">
+        {% for post in site.posts %}
+          <li class="posts__list-item">
+            
+            {% for image in post.images %}<img src="{{ site.baseurl }}{{ image }}" alt="{{ post.title | escape }}">{% endfor %}
+
+            <small>---</small>
+            <small>title: {{ post.title }}</small>
+            <small>my-role: [{% for role in post.my-role %}{{ role }}{% if forloop.last == false %}, {% endif %}{% endfor %}]</small>
+            <small>---</small>
+            <small>{{ post.content }}</small>
+
+          </li>
+        {% endfor %}
+      </ul>
+  </div>
+  
+  {{ content }}
+
+</div>

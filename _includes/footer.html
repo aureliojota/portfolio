@@ -1,0 +1,48 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <small>Thanks folks! Follow me on <a href="https://medium.com/@aureliojota" title="Follow me on Medium">Medium</a>, <a href="https://soundcloud.com/aureliojota" title="Follow me on SoundCloud">SoundCloud</a> and <a href="https://www.instagram.com/aurelio.jota/" title="Follow me on Instagram">Instagram</a>.</small>
+
+  </div>
+
+</footer>
+
+<script type="application/javascript">
+    $(function() {
+        
+        function siteScroll() {
+            var siteScrollTop = $(window).scrollTop();
+            if (siteScrollTop > 10) {
+                $('.site-header small').addClass('hide');
+            } else {
+                $('.site-header small').removeClass('hide');
+            }
+        }
+        
+        function siteHeader() {
+            var siteHeadeHeight = $('.site-header').height();
+            $('.page-content').css('margin-top', (siteHeadeHeight) + 'px');
+        }
+
+        $(window).on('scroll', function(){
+            siteScroll();
+        });
+
+        $(window).on('resize', function(){
+            siteHeader();
+        }).resize();
+
+    });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-31496915-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
