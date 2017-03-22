@@ -12,5 +12,5 @@ images:
     /images/vida-marketing-07.jpg
   ]
 category: case
-my-role: [identity, web developing]
+my-role: [identity, web development]
 ---
