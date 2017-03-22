@@ -14,5 +14,5 @@ images:
     /images/flaviz-guerra-09.jpg
   ]
 category: case
-my-role: [branding]
+my-role: [identity]
 ---
