@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: auréi
+title: aurélio jota
 email: contato@aureliojota.com
 description: > # this means to ignore newlines until "baseurl:"
-  Aurélio Jota, 27, living in São Paulo — Brasil. I'm a bridge between Designers and Engineers's world. Full-stack Designer and Full-stack Developer.
+  A bridge between Designers and Engineers's world. Senior UX/Interaction Designer, Design System Ops at Youse. Composer and Musician living in São Paulo — Brazil
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: aureliojota
+github_username:  aureliojota
 
 # Build settings
 markdown: kramdown
